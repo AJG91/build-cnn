@@ -1,6 +1,9 @@
 # Convolutional neural networks
 
-This repository contains code that demonstrates how to create and train a convolutional neural network (CNN) on various datasets.
+[my-website]: https://AJG91.github.io "my-website"
+[MNIST-docs]: https://www.openml.org/search?type=data&sort=runs&id=554&status=active "MNIST-docs"
+
+This repository contains code that demonstrates how to create and train a convolutional neural network (CNN) on the [MNIST][MNIST-docs] dataset.
 
 ## Getting Started
 
@@ -19,4 +22,4 @@ conda env create -f environment.yml
 
 ## Example
 
-See https://AJG91.github.io for examples on how to use this code.
+See [my website][my-website] for examples on how to use this code.
