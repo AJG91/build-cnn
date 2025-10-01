@@ -10,7 +10,7 @@ This repository contains code that demonstrates how to create and train a convol
 * This project relies on `python=3.12`. It was not tested with different versions
 * To view a list of extra required packages, see `requirements.txt`
 * Clone the repository to your local machine
-* Once you have `cd` into this repo, create a virtual environment (assuming you have `conda` installed) via
+* Once you have, `cd` into this repo, create a virtual environment (assuming you have `conda` installed) via
 ```bash
 conda env create -f environment.yml
 ```
