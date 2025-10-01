@@ -7,17 +7,16 @@ This repository contains code that demonstrates how to create and train a convol
 
 ## Getting Started
 
-* This project relies on `python=3.12`. It was not tested with different versions.
-  To view the entire list of required packages, see `requirements.txt`.
-* Clone the repository to your local machine.
+* This project relies on `python=3.12`. It was not tested with different versions
+* To view a list of extra required packages, see `requirements.txt`
+* Clone the repository to your local machine
 * Once you have `cd` into this repo, create a virtual environment (assuming you have `conda` installed) via
 ```bash
 conda env create -f environment.yml
 ```
 * Enter the virtual environment with `conda activate build-cnn-env`
 * Install MedMNIST with `pip install --no-deps medmnist==3.0.1`
-* Install the packages in the repo root directory using `pip install -e .`
-  (you only need the `-e` option if you intend to edit the source code in `build_cnn/`)
+* Install the packages in the repo root directory using `pip install -e .` (you only need the `-e` option if you intend to edit the source code in `build_cnn/`)
 
 
 ## Example
