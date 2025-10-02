@@ -39,7 +39,11 @@ def evaluate_model(
             
     return correct / total
 
-def find_misclassified_images(model, loader, device):
+def find_misclassified_images(
+    model: tc.nn.Module,
+    loader: tc.utils.data.DataLoader,
+    device: tc.device,
+    ):
     """
     Evaluates the model and saves the images that are missclassified.
 
